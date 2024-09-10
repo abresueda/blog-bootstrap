@@ -1,0 +1,30 @@
+.nav-tabs {
+    background-color: rgb(51, 127, 130);
+    color: aliceblue;
+    border-bottom: 4px solid black;
+}
+
+.nav-link.active {
+    color: black !important;
+    border-bottom: 4px solid rgb(57, 109, 110);
+}
+
+.nav-link {
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/*Kartın yüksekliğini eşit şekilde paylaşmasını ve kartın tüm yüksekliği kaplamasını sağlar*/
+.card-body {
+    flex:1;
+}
+
+.jumbotron {
+    background-color: rgb(99, 186, 189) !important;
+    color: black;
+}
